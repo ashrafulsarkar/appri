@@ -1,0 +1,372 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1550px) {
+    .app-m {
+        width: 100%;
+    }
+
+    .app-m-shape1 {
+        top: 315px;
+        left: -50px;
+        width: 55%;
+    }
+
+    .app-m-shape2 {
+        bottom: 150px;
+        right: -30px;
+        width: 55%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-menu nav ul li {
+        margin: 0 10px;
+    }
+
+    .header-btn .btn {
+        padding: 15px 35px;
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+
+    .section-title p {
+        font-size: 22px;
+        color: #878991;
+        line-height: 30px;
+        padding: 0 165px;
+    }
+
+    .work-area .section-title {
+        padding-bottom: 75px;
+    }
+
+    .how-work-text {
+        padding-top: 65px;
+    }
+
+    .how-work-text h3 {
+        font-size: 30px;
+        line-height: 38px;
+        padding-right: 0;
+    }
+
+    .faq-bg-items {
+        margin-top: -200px;
+        min-height: 1530px;
+    }
+
+    .how-buy {
+        margin-top: 0px;
+    }
+
+    .news-area .news-text {
+        width: 245px;
+        padding: 25px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slider-text {
+        padding-top: 330px;
+    }
+
+    .section-title p {
+        padding: 0;
+    }
+
+    .features-text p {
+        padding: 0;
+    }
+
+    .items-area .video .video-popup {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+
+    .work-area .section-title {
+        padding-bottom: 80px;
+    }
+
+    .how-work-text {
+        padding-top: 0;
+    }
+
+    .how-work-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-right: 0;
+    }
+
+    .how-work-text p {
+        margin-bottom: 25px;
+    }
+
+    .price-box {
+        padding: 35px 0;
+        border-radius: 10px;
+    }
+
+    .btn-theme-border {
+        padding: 16px 20px;
+    }
+
+    .faq-bg-items {
+        margin-top: -250px;
+        min-height: 1630px;
+    }
+
+    .how-buy {
+        margin-top: 0;
+    }
+
+    .how-buy .card {
+        margin-bottom: 10px;
+    }
+
+    .how-buy button.btn {
+        padding: 20px;
+    }
+
+    .how-buy .btn.btn-link::after {
+        top: 18px;
+    }
+
+    .how-buy .card-body {
+        padding: 15px 20px 20px 23px;
+    }
+
+    .brand-trusted h4 {
+        padding: 0 40px;
+    }
+
+    .news-area {
+        margin-top: -350px;
+    }
+
+    .news-area .news-text {
+        width: 185px;
+        padding: 20px 15px;
+    }
+
+    .news-info-item {
+        font-size: 12px;
+    }
+
+    .news-info-item i {
+        margin-right: 5px;
+    }
+
+    .news-title h4 {
+        font-size: 17px;
+    }
+
+    .subscribe-email {
+        margin: 0 30px;
+    }
+}
+
+/*Extra Small devices (landscape phones, 576px and up)*/
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .slider-text {
+        padding-top: 175px;
+    }
+
+    .slider-text h3 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-right: 0;
+    }
+
+    .slider-text p {
+        font-size: 20px;
+    }
+
+    .slider-btn {
+        margin-top: 50px;
+    }
+
+    .slider-btn a {
+        margin-bottom: 15px;
+        padding: 20px 50px;
+    }
+
+    .slider-height {
+        min-height: 980px;
+        background-position: bottom center;
+    }
+
+    .counter-area {
+        margin-top: -155px;
+    }
+
+    .single-counter::before {
+        display: none;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .section-title p {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .features-area {
+        padding-bottom: 200px;
+    }
+
+    .items-area .video .video-popup {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .video-popup h3 {
+        font-size: 35px;
+    }
+
+    .video-popup a i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 25px;
+    }
+
+    .work-area .section-title {
+        padding-bottom: 50px;
+    }
+
+    .how-work-text {
+        padding-top: 25px;
+    }
+
+    .how-work-text h3 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 0;
+    }
+
+    .how-work-text .btn {
+        padding: 20px 40px;
+    }
+
+    .how-work-img-2 {
+        margin-top: 50px;
+    }
+
+    .testiamonial-area {
+        padding-top: 340px;
+    }
+
+    .test-items p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .test-items span {
+        font-size: 16px;
+    }
+
+    .testiamonial-img-items {
+        width: 100%;
+    }
+
+    .testiamonial-area {
+        min-height: 810px;
+    }
+
+    .screenshort-area {
+        padding-top: 90px;
+    }
+
+    .faq-bg-items {
+        margin-top: -300px;
+    }
+
+    .how-buy button.btn {
+        padding: 20px 35px;
+    }
+
+    .how-buy .btn.btn-link::after {
+        top: 18px;
+    }
+
+    .brand-trusted h4 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .news-area {
+        margin-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .news-area .news-text {
+        width: 250px;
+        padding: 30px 20px;
+    }
+
+    .subscribe-email {
+        margin: 0 10px;
+    }
+
+    .subscribe-email input {
+        padding: 0 35px;
+        margin-bottom: 20px;
+        height: 65px;
+    }
+
+    .subscribe-email button {
+        position: inherit;
+    }
+
+    .subscribe-email .submit-btn {
+        padding: 20px;
+    }
+
+    .app-title h4 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .get-app a {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+/*small devices (portrait phones, less than 576px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slider-height {
+        min-height: 1085px;
+    }
+
+    .news-area .news-text {
+        width: 400px;
+        padding: 45px 50px;
+    }
+
+    .subscribe-email {
+        margin: 0 15px;
+    }
+
+    .subscribe-email button {
+        position: absolute;
+    }
+
+    .subscribe-email .submit-btn {
+        padding: 20px;
+    }
+
+    .subscribe-email button {
+        position: absolute;
+    }
+
+    .subscribe-email input {
+        padding: 0 230px 0 45px;
+        margin-bottom: 0;
+        height: 69px;
+    }
+}
