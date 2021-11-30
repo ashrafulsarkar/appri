@@ -1,5 +1,5 @@
 # Appri - App Landing page
-Beautiful, mordern, and unique responsive design. It's use landing app related website.
+Beautiful, modern, and unique responsive design. It uses a landing app-related website.
 
 # Live Website
  https://ashrafulsarkar.github.io/appri
